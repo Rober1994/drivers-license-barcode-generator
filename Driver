@@ -1,0 +1,69 @@
+<AAMVA>
+  <user>
+    <last e="DAA">EDITH Y</last>
+    <first e="DAA">JENNINGS</first>
+    <dob e="DBB">1950-10-17</dob>
+    <sex e="DBC">F</sex>
+    <height e="DAU">5'08"</height>
+    <street e="DAG">5790 Hall Lane</street>
+    <city e="DAI">Twentynine Palms</city>
+    <state e="DAJ">CA</state>
+    <postal e="DAK">92277</postal>
+    <id e="DAQ">D9104036</id>
+    <issued e="DBD">2019-08-31</issued>
+    <expires e="DBA">2023-08-31</expires>
+  </user>
+  <head>
+    <filetype name="File Type">ANSI</filetype>
+    <format name="Data Format">11</format>
+    <issuer name="Issuer Identification Number">636010</issuer>
+    <state name="Issuer Name">California</state>
+    <st name="Issuer Name Abbreviated">CA</st>
+    <version name="AAMVA Version Number">01</version>
+    <entries name="Number of Entries">02</entries>
+  </head>
+  <subfile designator="DL" offset="39" length="193">
+    <element id="DAA" name="Customer Full Name">JENNINGS,EDITH Y
+      </element>
+    <element id="DAG" name="Address - Street 1">5790 Hall Lane
+      </element>
+    <element id="DAI" name="Address - City">	Twentynine Palms</element>
+    <element id="DAJ" name="Address - Jurisdiction Code">CA
+      </element>
+    <element id="DAK" name="Address - Postal Code">	92277
+      </element>
+    <element id="DAQ" name="Customer ID Number">D9104036
+      </element>
+    <element id="DAR" name="Jurisdiction-specific vehicle class"
+>C</element>
+    <element id="DAS" name="Jurisdiction-specific restriction co
+des">
+    </element>
+    <element id="DAT" name="Jurisdiction-specific endorsement co
+des">
+    </element>
+    <element id="DBA" name="Document Expiration Date">20230831
+      </element>
+    <element id="DBB" name="Date of Birth">19501017</element>
+    <element id="DBC" name="Physical Description - Sex">1
+      </element>
+    <element id="DBD" name="Document Issue Date">20190831
+      </element>
+    <element id="DBH" name="Organ Donor">N</element>
+    <element id="DAU" name="Physical Description - Height">508
+      </element>
+  </subfile>
+  <subfile designator="ZF" offset="232" length="76">
+    <element id="A" name="Optional field A">REPLACED: 00000000
+      </element>
+    <element id="B" name="Optional field B">
+    </element>
+    <element id="C" name="Optional field C">L011108310226
+      </element>
+    <element id="D" name="Optional field D">
+    </element>
+    <element id="E" name="Optional field E">07-01-11</element>
+    <element id="F" name="Optional field F">
+    </element>
+  </subfile>
+</AAMVA>
